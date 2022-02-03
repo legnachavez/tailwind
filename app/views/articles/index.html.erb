@@ -1,27 +1,27 @@
-<div class="flex text-white h-screen">
-  <div class="bg-gray-800 p-3 space-y-2 overflow-y-scroll">
-    <% 40.times do |div| %>
-      <div class="bg-white text-gray-800 w-12 h-12 rounded-full flex items-center justify-center">
-      <%= div %>
-      </div>
-    <% end %>
-  </div>
-  <div class="bg-gray-700 p-3 w-60 flex flex-col">
-    <div class="px-3 h-12 shadow-md flex items-center">tailwind CSS</div>
-    <div class="p-3 flex-1 overflow-y-scroll space-y-2">
-    <% 40.times do |div| %>
-      <p>channel <%= div %></p>
-    <% end %>
-    </div>
+<body>
+  <header>
+    <div aria-hidden="true" class="mt-40"></div>
+  </header>
+  <div class="container mx-auto w-4/5 mt-10">
+    <span class="text-2xl pb-4 font-medium tracking-wide">Legna Chávez</span>
+    <br>
+    <span class="text-blue-600/100 text-sm">Front-end Developer</span>
+    <br>
+    <span class="text-gray-500 text-xs">Based in New York</span>
+    <br>
+    <br>
+    <a class="url url1 underline text-sm" href="mailto:legna.ch18@gmail.com">Email me</a>
+    <a class="url url1 underline text-sm" href="https://www.linkedin.com/in/legnachavez/">Linkedin</a>
+    <a class="url url1 underline text-sm" href="https://github.com/legnachavez">GitHub</a>
 
 
-  </div>
-  <div class="bg-gray-600 flex-1 flex flex-col">
-    <div class="p-3 h-12 flex items-center shadow-md">general</div>
-    <div class="p-3 flex-1 space-y-4 overflow-y-scroll">
-    <% 40.times do |div| %>
-      <p>message <%= div %>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <% end %>
+
+
+
+    <div class="grid gap-4 grid-cols-3">
+    <div class="bg-gray-100 rounded-lg"> <h2 class="tracking-wide antialiased text-gray-800 hover:bg-red-100 p-2 text-center">Education</h2></div>
+    <div class="bg-gray-100 rounded-lg"> <h2 class="tracking-wide antialiased text-gray-800 hover:bg-red-100 p-2 text-center">Work</h2></div>
+    <div class="bg-gray-100 rounded-lg"> <h2 class="tracking-wide antialiased text-gray-800 hover:bg-red-100 p-2 text-center">Skills</h2></div>
     </div>
   </div>
-</div>
+</body>
